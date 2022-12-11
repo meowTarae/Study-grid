@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: 100%;
+
+  padding: 0.8%;
+  grid-gap: 1.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 8% auto 4%;
+  grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+}
+
+.container > * {
+  border-radius: 24px;
+}
+
+#header {
+  grid-area: header;
+}
+#nav {
+  grid-area: nav;
+}
+#section {
+  grid-area: section;
+  background-color: aliceblue;
+}
+#aside {
+  grid-area: aside;
+}
+#footer {
+  grid-area: footer;
+}
