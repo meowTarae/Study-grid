@@ -1,0 +1,32 @@
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  padding: 16px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color1 {
+  background-color: plum;
+  opacity: 0.8;
+}
+.color2 {
+  background-color: paleturquoise;
+  opacity: 0.8;
+}
+.color3 {
+  background-color: palegreen;
+  opacity: 0.8;
+}
+.color4 {
+  background-color: ivory;
+  opacity: 0.8;
+}
+.color5 {
+  background-color: palevioletred;
+  opacity: 0.8;
+}
