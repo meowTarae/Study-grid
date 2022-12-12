@@ -2,6 +2,8 @@
 ;   HTML EMET => .box{Number$}*10 같은거
 ;   image.unsplash => 고화질 img 다운 가능한 곳
 ;   rem? css의 img_object-fit?
+;   postion:absolute에 top, left 50%주고 transform: translate(-50%,-50%); 주자.
+
 
 기본적으로 div같은 block은 한 줄에 같이 있을 수 없다.
 flex를 걸어주면 해결되지 ㅇㅇ
